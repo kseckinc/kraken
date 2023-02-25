@@ -4,18 +4,22 @@ go 1.14
 
 require (
 	cloud.google.com/go v0.43.0
+	github.com/Shopify/logrus-bugsnag v0.0.0-20171204204709-577dee27f20d // indirect
 	github.com/alecthomas/kingpin v2.2.6+incompatible
 	github.com/alicebob/gopher-json v0.0.0-20180125190556-5a6b3ba71ee6 // indirect
 	github.com/alicebob/miniredis v2.5.0+incompatible
 	github.com/andres-erbsen/clock v0.0.0-20160526145045-9e14626cd129
 	github.com/aws/aws-sdk-go v1.21.4
 	github.com/awslabs/amazon-ecr-credential-helper v0.3.1
+	github.com/bitly/go-simplejson v0.5.0 // indirect
+	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
+	github.com/bshuster-repo/logrus-logstash-hook v0.4.1 // indirect
 	github.com/bugsnag/bugsnag-go v1.5.0 // indirect
 	github.com/bugsnag/panicwrap v0.0.0-20180510051541-1d162ee1264c // indirect
 	github.com/c2h5oh/datasize v0.0.0-20171227191756-4eba002a5eae
 	github.com/cactus/go-statsd-client v3.1.1+incompatible
 	github.com/cenkalti/backoff v2.2.1+incompatible
-	github.com/docker/distribution v0.0.0-20191024225408-dee21c0394b5
+	github.com/docker/distribution v2.8.0+incompatible
 	github.com/docker/docker-credential-helpers v0.6.3
 	github.com/docker/engine-api v0.0.0-20160908232104-4290f40c0566
 	github.com/docker/go-connections v0.0.0-20180821093606-97c2040d34df // indirect
@@ -37,12 +41,14 @@ require (
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/mattn/go-sqlite3 v1.14.0
 	github.com/opencontainers/go-digest v0.0.0-20190228220655-ac19fd6e7483
+	github.com/opencontainers/image-spec v1.0.0 // indirect
 	github.com/pressly/chi v4.0.2+incompatible
 	github.com/pressly/goose v2.6.0+incompatible
 	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90 // indirect
 	github.com/prometheus/common v0.2.0 // indirect
 	github.com/prometheus/procfs v0.0.0-20190328153300-af7bedc223fb // indirect
 	github.com/satori/go.uuid v1.2.0
+	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/spaolacci/murmur3 v0.0.0-20170819071325-9f5d223c6079
 	github.com/spf13/cobra v0.0.4 // indirect
 	github.com/stretchr/testify v1.4.0
@@ -62,4 +68,5 @@ require (
 	google.golang.org/api v0.7.0
 	gopkg.in/validator.v2 v2.0.0-20180514200540-135c24b11c19
 	gopkg.in/yaml.v2 v2.2.2
+	rsc.io/letsencrypt v0.0.3 // indirect
 )
