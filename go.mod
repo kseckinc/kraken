@@ -28,7 +28,7 @@ require (
 	github.com/golang/mock v1.4.4
 	github.com/golang/protobuf v1.3.3
 	github.com/gomodule/redigo v2.0.0+incompatible // indirect
-	github.com/gorilla/handlers v0.0.0-20190227193432-ac6d24f88de4 // indirect
+	github.com/gorilla/handlers v1.3.0 // indirect
 	github.com/gorilla/mux v1.7.3
 	github.com/jackpal/bencode-go v0.0.0-20180813173944-227668e840fa
 	github.com/jinzhu/gorm v1.9.16
